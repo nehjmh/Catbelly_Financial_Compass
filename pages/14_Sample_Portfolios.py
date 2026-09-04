@@ -34,7 +34,7 @@ BASELINE_PORTFOLIOS = {
         "description": "Conservative yield blend introducing broad S&P 500 core equity exposure alongside short-duration cash equivalents.",
         "holdings": {
             "PULS": {"shares": 100.58, "target_pct": 50, "freq": "Monthly"},
-            "SPLG": {"shares": 37.50,  "target_pct": 30, "freq": "Quarterly"},
+            "SPYM": {"shares": 33.33,  "target_pct": 30, "freq": "Quarterly"},
             "STRC": {"shares": 10.27,  "target_pct": 10, "freq": "Semi-Monthly (2x/mo)"},
             "SATA": {"shares": 10.03,  "target_pct": 10, "freq": "Daily (Every Trading Day)"}
         }
@@ -43,7 +43,7 @@ BASELINE_PORTFOLIOS = {
         "description": "Balanced equity/yield core: 60% broad market equity (S&P 500 & Nasdaq 100) paired with 40% ultra-short income ballast.",
         "holdings": {
             "PULS": {"shares": 60.35, "target_pct": 30, "freq": "Monthly"},
-            "SPLG": {"shares": 37.50, "target_pct": 30, "freq": "Quarterly"},
+            "SPYM": {"shares": 33.33, "target_pct": 30, "freq": "Quarterly"},
             "QQQM": {"shares": 10.17, "target_pct": 30, "freq": "Quarterly"},
             "STRC": {"shares": 5.14,  "target_pct": 5,  "freq": "Semi-Monthly (2x/mo)"},
             "SATA": {"shares": 5.01,  "target_pct": 5,  "freq": "Daily (Every Trading Day)"}
@@ -53,7 +53,7 @@ BASELINE_PORTFOLIOS = {
         "description": "Growth-tilted tier anchoring 80% in index equity cores (QQQM, SPLG, SMH) with a 20% high-frequency income component.",
         "holdings": {
             "QQQM": {"shares": 13.56, "target_pct": 40, "freq": "Quarterly"},
-            "SPLG": {"shares": 37.50, "target_pct": 30, "freq": "Quarterly"},
+            "SPYM": {"shares": 33.33, "target_pct": 30, "freq": "Quarterly"},
             "SATA": {"shares": 20.05, "target_pct": 20, "freq": "Daily (Every Trading Day)"},
             "SMH":  {"shares": 1.81,  "target_pct": 10, "freq": "Quarterly"}
         }
